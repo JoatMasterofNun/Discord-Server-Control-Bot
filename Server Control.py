@@ -13,6 +13,8 @@ current_server='$game from gamelist'
 server_PID
 
 #commands to start server from bot
+#Ignore PMs
+#Only monitor one channel E.G "SERVERS"
 !start Rust
 #starts Rust for example
 #But bot checks user roles for a match
