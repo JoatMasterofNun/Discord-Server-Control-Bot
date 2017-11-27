@@ -1,4 +1,5 @@
-OS is Debian, Jessie
+#OS is Debian, Jessie
+#Python 3.5 or higher.
 
 #Things we need variables / global variables for
 gamelist=['ARK','7D2D','FOREST','RUST','L4D2'] #Names of games servers exist for. There are also matching roles in discord the same name as these.
@@ -11,6 +12,13 @@ start_user #To store user who initiated server
 server_running=0
 current_server='$game from gamelist'
 server_PID
+
+#Help command - Or this may just be a pinned message instead. Probably a pinned message since the channel will be kept clean.
+#!help
+#	!start - '!start game to start game. Use'{}'to start game.'.format(gamelist)
+#	!stop - '!stop to stop current server. Only Mods or initiating user can stop the server.'
+#	!status - '!status will return current server state'
+#Delete any messages that are not !help/start/stop/status
 
 #commands to start server from bot
 #Ignore PMs
